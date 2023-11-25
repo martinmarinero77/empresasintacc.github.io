@@ -1,0 +1,171 @@
+nav{    background-color: rgb(255, 153, 0);
+        height: 100px;}
+
+body{       background-color: rgb(146, 32, 32);}
+
+/* Inicio */
+/* Carrusel de Imagenes */
+.conteiner1{ width: 100%;
+             height: 560px;  
+             position: relative; 
+             margin: 20px auto;}
+
+.texto {    position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 70%;
+            width: 60%;
+            }
+
+.texto p{   font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5rem;
+            color: white;
+            text-align: justify;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            text-align: justify;}
+
+.colortex{  background-color: rgba(83, 83, 83, 0.6); }
+
+nav h1{     font-family: Arial, Helvetica, sans-serif;
+            font-size: 3.5rem;
+            color: white;
+            text-align: center;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);}
+
+h2{         font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);}
+
+h3{     font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 2.5;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        margin: 20px;}
+
+/* Productos Inicio */
+.conteiner2{    width: 100%;
+                height: 90%;  
+                position: relative;}               
+
+/* Preguntas Inicio */
+.conteiner3{  background-color: gray;}
+
+.conteiner3 p{  color: white;
+                font-size: 2.0;
+                text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+                margin: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.y{
+    font-weight: 100px;
+    color:rgb(0, 0, 0);
+}
+.rojo{
+    background-color: rgb(230, 230, 230);
+}
+
+li{
+    border-bottom: rgb(0, 0, 0);
+}
+ 
+footer{
+    background-color: rgb(252, 248, 40);
+}
+
+/* PREGUNTAS */
+.preguntas{
+    background-color:rgb(146, 32, 32);
+    margin: 20px;
+}
+.preguntas p{   font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 1.5rem;
+                color: white;
+                text-align: justify;
+                text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+                text-align: justify;
+                margin: 20px;}
+
+/* CONTACTO */
+#form{
+    background-color: rgb(146, 32, 32);
+    height: 460px;
+    margin: 20px;
+
+}
+.barra{
+    float: left;
+}
+.guardar{
+    color: white;
+    text-decoration: none;
+    }
+  
+/* RECETA    */
+.receta p{  font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5rem;
+            color: white;
+            text-align: justify;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            text-align: justify;}
+.re{
+    width: 300px; /* ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* para mantener la proporción original de la imagen */
+    margin-right: 50px; /* ajusta el margen derecho según tus necesidades */
+}
+.res{
+    display: flex; /* utiliza flexbox para alinear elementos en línea */
+    align-items: center; /* alinea verticalmente los elementos */
+    margin-bottom: 20px; /* espacio entre cada conjunto de imagen y texto */
+}
+.img{
+    border-radius: 90%;
+}
+
+label{
+ color: beige;
+}
+#la{
+    color: beige;
+}
+
+/* SALUD */
+.salud p{   font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1rem;
+            color: white;
+            text-align: justify;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            text-align: justify;}
+
+.video{
+    display: flex; /* utiliza flexbox para alinear elementos en línea */
+    align-items: center; /* alinea verticalmente los elementos */
+    margin-bottom: 20px; /* espacio entre cada conjunto de imagen y texto */
+}
+
+
+/*Media Queries*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+    .conteiner1{
+        display: none;}
+    #barra{
+        background-color: rgb(255, 153, 0);
+    }
+    
+  }
+  
+  /*Medium devices (tablets, 768px and up)*/
+  @media (max-width: 767.98px) {
+    #barra{
+        background-color: rgb(255, 153, 0);}
+  }
+  
+  /*Large devices (desktops, 992px and up)*/
+  @media (max-width: 991.98px) {
+    #barra{
+        background-color: rgb(255, 153, 0);
+        }
+    }
