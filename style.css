@@ -166,9 +166,11 @@ label{
         display: none;}
   }
   
-  /*Large devices (desktops, 992px and up)*/
-  @media (max-width: 991.98px) {
+  /*Large devices (desktops, 1301px and up)*/
+  @media (max-width: 1300px) {
     #barra{
         background-color: rgb(255, 153, 0);
+        margin-right: 25%;
         }
+        
     }
