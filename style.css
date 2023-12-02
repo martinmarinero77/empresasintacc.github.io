@@ -1,7 +1,9 @@
 nav{    background-color: rgb(255, 153, 0);
         height: 100px;}
 
-body{       background-color: rgb(146, 32, 32);}
+.barra{ float: left;}
+
+body{       background-color: white;}
 
 /* Inicio */
 /* Carrusel de Imagenes */
@@ -10,22 +12,29 @@ body{       background-color: rgb(146, 32, 32);}
              position: relative; 
              margin: 20px auto;}
 
+.carru{     filter: brightness(0.15);
+            width: 100%; }
+
 .texto {    position: absolute;
             top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
             height: 70%;
-            width: 60%;
-            }
+            width: 60%;}
+
+.texto h2{  font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);} 
 
 .texto p{   font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 1.5rem;
             color: white;
-            text-align: justify;
-            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-            text-align: justify;}
+            text-align: center;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);}
 
-.colortex{  background-color: rgba(83, 83, 83, 0.6); }
+
 
 nav h1{     font-family: Arial, Helvetica, sans-serif;
             font-size: 3.5rem;
@@ -35,109 +44,69 @@ nav h1{     font-family: Arial, Helvetica, sans-serif;
 
 h2{         font-family: Arial, Helvetica, sans-serif;
             font-size: 3rem;
-            color: white;
+            color: black;
             text-align: center;
-            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);}
+            margin: 20px;}
 
 h3{     font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
         color: white;
-        font-size: 2.5;
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        font-size: 1.8rem;
         margin: 20px;}
+
+h4{ font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 1.5rem;
+    margin: 20px;}
+
+p{  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-align: left;}
+
+#div{ width: 90%; height: 1rem; background: linear-gradient(
+    to left,
+    rgb(255, 153, 0) 33%,
+    grey 33% 66%,
+    rgb(146, 32, 32) 66%
+  );}
+
 
 /* Productos Inicio */
 .conteiner2{    width: 100%;
-                height: 90%;  
-                position: relative;}               
+                position: relative;
+                margin: 5% auto;
+                background-color: rgb(240, 240, 240);
+                height: 38rem auto;}               
 
 /* Preguntas Inicio */
-.conteiner3{  background-color: gray;}
+.conteiner3{    width: 100%;  
+                position: relative;
+                margin: 5% auto; }
 
 .conteiner3 p{  color: white;
                 font-size: 2.0;
                 text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
                 margin: 20px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;}
-
-.y{
-    font-weight: 100px;
-    color:rgb(0, 0, 0);
-}
-.rojo{
-    background-color: rgb(230, 230, 230);
-}
-
-li{
-    border-bottom: rgb(0, 0, 0);
-}
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: left;}
  
 footer{
-    background-color: rgb(252, 248, 40);
+    background-color: rgb(146, 32, 32);
 }
-
-/* PREGUNTAS */
-.preguntas{
-    background-color:rgb(146, 32, 32);
-    margin: 20px;
-}
-.preguntas p{   font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 1.5rem;
-                color: white;
-                text-align: justify;
-                text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-                text-align: justify;
-                margin: 20px;}
 
 /* CONTACTO */
 #form{
-    background-color: rgb(146, 32, 32);
-    height: 460px;
-    margin: 20px;
+    margin: 5%;
 
 }
-.barra{
-    float: left;
-}
-.guardar{
-    color: white;
-    text-decoration: none;
-    }
-  
-/* RECETA    */
-.receta p{  font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 1.5rem;
-            color: white;
-            text-align: justify;
-            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-            text-align: justify;}
-.re{
-    width: 300px; /* ajusta el ancho de la imagen según tus necesidades */
-    height: auto; /* para mantener la proporción original de la imagen */
-    margin-right: 50px; /* ajusta el margen derecho según tus necesidades */
-}
-.res{
-    display: flex; /* utiliza flexbox para alinear elementos en línea */
-    align-items: center; /* alinea verticalmente los elementos */
-    margin-bottom: 20px; /* espacio entre cada conjunto de imagen y texto */
-}
+
 .img{
     border-radius: 90%;
 }
 
-label{
- color: beige;
-}
-#la{
-    color: beige;
-}
-
 /* SALUD */
-.salud p{   font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 1rem;
-            color: white;
-            text-align: justify;
-            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-            text-align: justify;}
 
 .video{
     display: flex; /* utiliza flexbox para alinear elementos en línea */
@@ -154,23 +123,35 @@ label{
     #barra{
         background-color: rgb(255, 153, 0);
     }
+    .imgpreg{
+        display: none;}
     .re{   
         display: none;}
   }
   
   /*Medium devices (tablets, 768px and up)*/
   @media (max-width: 767.98px) {
+    .conteiner1{
+        display: none;}
     #barra{
         background-color: rgb(255, 153, 0);}
+    .imgpreg{
+        display: none;}
     .re{   
         display: none;}
   }
   
-  /*Large devices (desktops, 1301px and up)*/
-  @media (max-width: 1300px) {
+  /*Large devices (desktops, 992px and up)*/
+  @media (max-width: 991.98px) {
+    .conteiner1{
+        display: none;}
     #barra{
-        background-color: rgb(255, 153, 0);
-        margin-right: 25%;
-        }
-        
+        background-color: rgb(255, 153, 0);}
+    .imgpreg{
+        display: none;}
     }
+
+  @media (min-width: 991.99px) and (max-width: 1290px) {    
+    #barra{ margin-right: 25%;}
+  }
+
