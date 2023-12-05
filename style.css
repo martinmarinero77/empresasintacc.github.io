@@ -12,7 +12,7 @@ body{       background-color: white;}
              position: relative; 
              margin: 20px auto;}
 
-.carru{     filter: brightness(0.15);
+.carru{     filter: brightness(0.30);
             width: 100%; }
 
 .texto {    position: absolute;
